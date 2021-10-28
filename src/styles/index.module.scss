@@ -1,0 +1,42 @@
+html,
+body {
+  // makes background image full screen
+  margin: 0;
+  padding: 0;
+
+  .container {
+    // padding: 10px;
+    background-color: rgb(34, 34, 34);
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    grid-template-areas:
+      "landing"
+      "about"
+      "projects"
+      "footer";
+  }
+  .itemLanding {
+    grid-area: "landing";
+  }
+  .itemAbout {
+    grid-area: "about";
+    border-style: solid;
+    border-color: white;
+  }
+  .itemProjects {
+    grid-area: "projects";
+    border-color: white;
+    border-style: solid;
+  }
+  .itemFooter {
+    grid-area: "footer";
+    border-style: solid;
+    border-color: white;
+  }
+}
+
+.font {
+  font-family: sans-serif;
+  // color: white;
+}
