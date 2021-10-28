@@ -1,5 +1,5 @@
 import React from "react";
-import indexStyles from "../styles/index.module.scss";
+import * as indexStyles from "../styles/index.module.scss";
 import Landing from "../components/Landing";
 import About from "../components/About";
 import Project from "../components/Project";

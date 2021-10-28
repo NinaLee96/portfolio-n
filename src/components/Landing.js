@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import landingStyles from "../styles/landing.module.scss";
+import * as landingStyles from "../styles/landing.module.scss";
 import { useSpring, animated } from "react-spring";
 
 const Landing = () => {
