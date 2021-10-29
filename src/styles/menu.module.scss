@@ -1,0 +1,14 @@
+.menu {
+  overflow-y: scroll;
+  list-style: none;
+  position: fixed;
+  top: 0;
+  background: #484646;
+  left: 0;
+  bottom: 0;
+  height: 100vh;
+
+  max-width: 290px;
+  z-index: 9;
+  //
+}

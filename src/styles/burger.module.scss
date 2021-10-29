@@ -1,0 +1,18 @@
+.bm-burger-button {
+  color: white;
+
+  // position: fixed;
+  // width: 36px;
+  // height: 30px;
+  // left: 36px;
+  // top: 36px;
+}
+
+.burger-button {
+  width: 2rem;
+  height: 0.25rem;
+  background-color: "#333";
+  border-radius: 10px;
+  transform-origin: 1px;
+  transition: all 0.3s linear;
+}

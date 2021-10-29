@@ -15,7 +15,7 @@ const Landing = () => {
 
   return (
     <div className={landingStyles.background}>
-      <animated.div style={props}>I will fade in</animated.div>
+      {/* <animated.div style={props}>I will fade in</animated.div> */}
     </div>
   );
 };
